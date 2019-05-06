@@ -233,7 +233,6 @@ header {
 
 nav ul {
   display: flex;
-
   color: red;
   justify-content: space-evenly;
 }
@@ -258,10 +257,11 @@ header li {
 .header-logo {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: baseline;
   /* TRBL */
   margin: 10px 0 10px 30px;
+  /*Have to figure out how to get img centered and aligned*/
 }
 .boxes .box1 {
   width: 12.5%;
@@ -513,11 +513,6 @@ button {
   font-size: 14px;
   padding: 10px;
   margin: 10px 0 10px 0;
-}
-
-button:hover {
-  background: black;
-  color: white;
 }
 
 .header-logo {
